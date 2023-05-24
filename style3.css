@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+}
+
+
+.container-img{
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.container-text{
+   display: flex;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-size: 14px; 
+   width: 100%;
+   flex-direction: column;
+}
+
+.preco{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: grey;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: black;
+}
+
+.descricao{
+    position: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.Contato{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.meio-contato li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+}

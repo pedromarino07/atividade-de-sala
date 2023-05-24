@@ -1,0 +1,141 @@
+* * body{
+    background: #121212;
+    margin: 0;
+	padding: 0;
+	border: 0
+}
+
+.content{
+    width: 1000px;
+    height: auto;
+    margin: 200px;
+    color: #111;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Arial';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.form{
+    width: 290px;
+    height: 380px;
+    background: grey;
+    position: absolute;
+    top: -100px;
+    left: 800px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 240px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #111;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    background: transparent;
+    border-bottom: 1px solid #dd2541;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.for input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.text{
+    height: 150px;
+}
+
+.btn{
+    margin-left: 165px;
+    width: 100px;
+    height: 50px;
+    background: #dd2541;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #111;
+    color: #dd2541;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Contato{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.meio-contato li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+}

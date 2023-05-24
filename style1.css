@@ -1,0 +1,74 @@
+* * body{
+    background: #121212;
+    margin: 0;
+	padding: 0;
+	border: 0
+}
+
+.container2{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+}
+
+.container3{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+}
+
+.container4{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.botaologin{
+    margin-top: 30px;
+    background-color: blue;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.Contato{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.meio-contato li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+}
+
